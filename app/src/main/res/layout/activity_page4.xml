@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".page4">
+
+  <ImageView
+      android:layout_width="293dp"
+      android:layout_height="108dp"
+      android:layout_marginLeft="0dp"
+      android:layout_marginTop="0dp"
+      android:src="@drawable/bloo" />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Vous êtes "
+      android:gravity="center"
+      android:textSize="40sp"
+      android:layout_marginTop="60dp"
+      android:layout_marginLeft="90dp"
+      android:fontFamily="@font/dm_medium"
+      android:textColor="#2C7873"/>
+
+  <ImageButton
+      android:id="@+id/b"
+      android:layout_width="112dp"
+      android:layout_height="99dp"
+      android:layout_marginLeft="22dp"
+      android:layout_marginTop="90dp"
+      android:src="@drawable/medecin" />
+
+  <ImageButton
+      android:id="@+id/b2"
+      android:layout_width="112dp"
+      android:layout_height="99dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginTop="-100dp"
+      android:layout_marginLeft="220dp"
+      android:src="@drawable/pt" />
+
+  <TextView
+      android:layout_width="88dp"
+      android:layout_height="55dp"
+      android:layout_marginLeft="37dp"
+      android:gravity="center"
+      android:text="Médecin"
+      android:fontFamily="@font/dm_medium"
+      android:textSize="20sp"
+      android:textColor="#2C7873"/>
+
+  <TextView
+      android:layout_width="117dp"
+      android:layout_height="69dp"
+      android:layout_marginLeft="220dp"
+      android:gravity="center"
+      android:layout_marginTop="-66dp"
+      android:text="Patient"
+      android:fontFamily="@font/dm_medium"
+      android:textSize="20sp"
+      android:textColor="#2C7873"/>
+</LinearLayout>
